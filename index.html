@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+      /* Remove the navbar's default rounded borders and increase the bottom margin */
+      .navbar {
+        margin-bottom: 50px;
+        border-radius: 0;
+    
+      }
+
+      /* Remove the jumbotron's default bottom margin */
+      .jumbotron {
+        margin-bottom: 0;
+      }
+
+      /* Add a gray background color and some padding to the footer */
+      footer {
+        background-color: #1b1a1a98;
+        padding: 25px;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <div class="container text-center">
+        <h1>
+          <img src="file:///Users/kimberleymcleod/Downloads/Logo%20/CODING/CODE%20FIRST%20GIRL/Project/home%20%20of%20jewels%20logo%20copy%201%20.png" style="width: 20%" />
+  
+    </div>
+    
+</body>
+</html> 
+
+</html>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+             <img src="file:///Users/kimberleymcleod/Downloads/Logo%20/CODING/CODE%20FIRST%20GIRL/Project/home%20%20of%20jewels%20logo%20copy%201%20.png" style="width: 6%" />
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">RINGS</a></li>
+            <li><a href="#">ENGAGEMENT</a></li>
+            <li><a href="#">EARRINGS</a></li>
+            <li><a href="#">BRACELETS</a></li>
+            <li><a href="#">NECKLACES</a></li>
+            <li><a href="#">JEWELLERY</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#"
+                ><span class="glyphicon glyphicon-user"></span> Your Account</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+    <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f3f3f300;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgba(254, 252, 252, 0);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #eb202000;
+}
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="file:///Users/kimberleymcleod/Downloads/Logo%20/CODING/CODE%20FIRST%20GIRL/Project/front%20slide%201.png" style="width:100%">
+  <div class="button 1"><button> RINGS </button></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="file:///Users/kimberleymcleod/Downloads/Logo%20/CODING/CODE%20FIRST%20GIRL/Project/2nd%20Pic.png" style="width:100%">
+  <div class="Button 2"> <button> Jewellery</button></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="file:///Users/kimberleymcleod/Downloads/Logo%20/CODING/CODE%20FIRST%20GIRL/Project/3rd%20pic.png" style="width:100%">
+  <div class="Button 3"> <button> GIFT SETS </button></div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+</body>
+</html> 
+.
+<!-- shop by jewerelly  -->
+<head>
+    <title> <p> style="text-align:center;"Award winning jewellery that is beautiful,stylish and affordable. </p> </title>  
+   <div class="container separator"> 
+    <img src="file:///Users/kimberleymcleod/Downloads/Logo%20/CODING/CODE%20FIRST%20GIRL/decorative%20line%20divider.png" style="width: 100%" />
+   </div>
+   <body>
+      <h1></h1>
+      <p style="text-align:center;">Shop by Jewellery Type</p>
+      
+   </body>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="panel panel-default">
+            <div class="panel-heading"> RINGS</div>
+            <div class="panel-body">
+              <img
+                src="https://files.jewelfeed.com/si1219/catalog/items/4d3e9c51-3332-4546-b7bc-9bd1c7877012.jpg.800x800_q85_background.jpg"
+                class="img-responsive"
+                style="width: 100%"
+                alt="Image"
+              />
+            </div>
+            <div class="panel-footer"> </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">NECKLACE</div>
+            <div class="panel-body">
+              <img
+                src="https://cdn-fsly.yottaa.net/609426e54f1bbfff95ac5cfc/uk.pandora.net/v~4b.d/dw/image/v2/BFCR_PRD/on/demandware.static/-/Sites-pandora-master-catalog/default/dw5ca65c31/productimages/singlepackshot/392666C01_RGB.jpg?sw=900&sh=900&sm=fit&sfrm=png&bgcolor=F5F5F5&yocs=1_6_"
+                class="img-responsive"
+                style="width: 100%"
+                alt="Image"
+              />
+            </div>
+            <div class="panel-footer"></div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">BRACELETS</div>
+            <div class="panel-body">
+              <img
+                src="https://diamondtreats.co.uk/pub/media/catalog/product/cache/55c496c08d8a252664b1bbc09fa3cb32/2/0/2079sw.jpg"
+                class="img-responsive"
+                style="width: 100%"
+                alt="Image"
+              />
+            </div>
+            <div class="panel-footer"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+<!-- containers -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="panel panel-default">
+            <div class="panel-heading"> JEWELLERY</div>
+            <div class="panel-body">
+              <img
+                src="https://www.jeulia.co.uk/media/catalog/product/cache/f385957ba32f31cd063968db9aa39da1/5/d/5dc4eafdeed8fjpg.jpg"
+                class="img-responsive"
+                style="width: 100%"
+                alt="Image"
+              />
+            </div>
+            <div class="panel-footer"></div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="panel panel-default">
+            <div class="panel-heading"> ENGAGMENT RINGS</div>
+            <div class="panel-body">
+              <img
+                src="https://assets.angara.com/ring/sr1912mgd/5mm-a-morganite-white-gold-ring.jpg?width=2000&quality=95"
+                class="img-responsive"
+                style="width: 100%"
+                alt="Image"
+              />
+            </div>
+            <div class="panel-footer"></div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="panel panel-default">
+            <div class="panel-heading"> EARRINGS</div>
+            <div class="panel-body">
+              <img
+                src="https://assets.angara.com/earrings/se1668d/1.6mm-hsi2-diamond-white-gold-earrings.jpg?width=2000&quality=95"
+                class="img-responsive"
+                style="width: 100%"
+                alt="Image"
+              />
+            </div>
+            <div class="panel-footer"> </div>
+
+<!-- End of Page -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="IE=edge">
+<meta name="Viewport"content="device-width,initial-scale=1.0">
+<Style>
+.imgMain {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</Style>
+</head>
+<body>
+<div id="image-container">
+<img src="file:///Users/kimberleymcleod/Downloads/Logo%20/CODING/CODE%20FIRST%20GIRL/Our%20Promise/1.png" class ="imgMain"class="center" > 
+<img src="file:///Users/kimberleymcleod/Downloads/Logo%20/CODING/CODE%20FIRST%20GIRL/Our%20Promise/2.png" class ="imgMain" class="center"> 
+<img src="file:///Users/kimberleymcleod/Downloads/Logo%20/CODING/CODE%20FIRST%20GIRL/2%20Our%20Promise.png" class ="imgMain" class="center">
+</div>
+</body>
+</html>
+
+</div>
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+</head>
+<body>
+
+
+
+
+
+
+<!-- Footers -->
+       
+     </div>
+    </div>
+  </div>
+</div><br><br>
+    <footer class="container-fluid text-center">
+      <p><strong> Join Our Sparkling Community: </strong> </p>
+      <form class="form-inline">
+        :
+        <input
+          type="email"
+          class="form-control"
+          size="50"
+          placeholder="Your Email"/>
+        <button type="button" class="btn btn-danger">Join Our Community</button>
+      </form>
+    </footer>
+  </body>
+</html>
